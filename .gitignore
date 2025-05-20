@@ -1,1 +1,21 @@
-.venv
+# Ignore Miniconda installer file
+Miniconda3-latest-MacOSX-arm64.sh
+
+# Ignore Python virtual environment folders
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (if any)
+data/
+*.csv
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
