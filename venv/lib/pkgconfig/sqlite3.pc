@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.45.3
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}

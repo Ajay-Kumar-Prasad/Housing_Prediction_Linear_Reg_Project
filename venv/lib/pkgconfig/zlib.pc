@@ -1,0 +1,13 @@
+prefix=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv
+exec_prefix=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv
+libdir=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv/lib
+sharedlibdir=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv/lib
+includedir=/Users/ajayyy/Documents/MINI-PROJECT/ML Projects/Housing_Prediction_Linear_Reg_Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
